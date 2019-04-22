@@ -1,0 +1,467 @@
+body{
+	background: #F9F4ED;
+}
+/*头部*/
+header{
+	width: 100%;
+	height: 210px;
+}
+header>.head_top{
+	width: 1120px;
+	height:150px;
+	margin: 0 auto;
+}
+header>.head_top>.logo{
+	width: 284px;
+	height: 100px;
+	margin-top:25px;
+	float: left;
+	background: url(../img/logo.png);
+}
+header>.head_top>.logo>a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+header>.head_top>.hotline{
+	width: 211px;
+	height: 131px;
+	float:right;
+}
+header>.head_top>.hotline>p{
+	margin-top:35px;
+	font-size:18px;
+	line-height: 36px;
+}
+header>.head_top>.hotline>p>span{
+	display: inline-block;
+	width: 46px;
+	height: 36px;
+	background: url(../img/h-mobile.png)no-repeat;
+	vertical-align: middle;
+}
+header>.head_top>.hotline>h2{
+	font-size:29px;
+	color:#be9c74;
+	line-height: 60px;
+	font-weight: bold;
+}
+header>nav{
+	width: 100%;
+	height: 60px;
+	background: #fff;
+}
+header>nav>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+header>nav>ul>li{
+	width: 109px;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+	transition:background 0.3s linear;
+}
+header>nav>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	color: #666;
+	transition:color 0.3s linear;
+}
+/*nav*/
+header>nav>ul>li:nth-child(4){
+	background: #F9F4ED;
+}
+header>nav>ul>li:nth-child(4)>a{
+	color:#be9c74;
+}
+header>nav>ul>li:hover{
+	background: #F9F4ED;
+}
+header>nav>ul>li:hover>a{
+	color:#be9c74;
+}
+.qq_signin{
+	display: block;
+	width: 60px;
+	height: 70px;
+	background: url(../img/QQ.jpg);
+	position:fixed;
+	right: 0;
+	top:25%;
+}
+.Consultation{
+	display: block;
+	width: 60px;
+	height: 70px;
+	background: url(../img/zixun.png);
+	position:fixed;
+	right: 0;
+	top:38%;
+}
+/*banner*/
+.banner{
+	width:100%;
+	height: 594px;
+	background: url(../img/join_banner.jpg)center no-repeat;
+}
+/*项目优势*/
+.advantage{
+	width: 1200px;
+	margin: 0 auto;
+}
+.advantage>.tit{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	background: url(../img/join_tit02.png)right no-repeat;
+}
+.advantage>.tit>h2{
+	width: 220px;
+	height: 50px;
+	background: url(../img/join_tit01.png) center no-repeat;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.advantage>main{
+	width: 100%;
+	height: 590px;
+}
+.advantage>main>ul{
+	width: 100%;
+	height: 100%;
+}
+.advantage>main>ul>li{
+	width: 270px;
+	height: 255px;
+	margin:40px 0 0 40px;
+	overflow: hidden;
+	float: left;
+}
+.advantage>main>ul>li>img{
+	transition: transform 0.2s linear;
+}
+.advantage>main>ul>li>img:hover{
+	transform: scale(1.03);
+}
+.advantage>main>ul>li:nth-child(1){
+	margin-left: 0px;
+}
+.advantage>main>ul>li:nth-child(5){
+	margin-left: 0px;
+}
+.advantage>main>ul>li>h1{
+    font-size: 24px;
+    color: #BE9C74;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem 0 0.25rem 0;
+    line-height: 36px;
+}
+.advantage>main>ul>li>p{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    line-height: 27px;
+}
+/*利润分析*/
+.profit{
+	width: 1200px;
+	margin:0 auto;
+}
+.profit>.tit{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	background: url(../img/join_tit02.png)right no-repeat;
+}
+.profit>.tit>h2{
+	width: 220px;
+	height: 50px;
+	background: url(../img/join_tit01.png) center no-repeat;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.profit>.form_box{
+	width: 1120px;
+	height: 700px;
+	margin: 50px auto 0 auto;
+	padding:0 40px;
+}
+.profit>.form_box>.form_01{
+	width: 560px;
+	height: 700px;
+	background: url(../img/profit-img01.jpg)center no-repeat;
+	float: left;
+}
+.profit>.form_box>.form_box02{
+	float: right;
+	width: 500px;
+	height: 700px;
+}
+.profit>.form_box>.form_box02>.form_02{
+	width: 500px;
+	height: 400px;
+	background: url(../img/profit-img02.jpg)center no-repeat;
+}
+.profit>.form_box>.form_box02>.form_03{
+	width: 500px;
+	height: 254px;
+	background: url(../img/profit-img03.jpg)center no-repeat;
+	margin-top: 47px;
+}
+/*加盟流程*/
+.Join_in{
+	width: 1200px;
+	margin: 0 auto;
+}
+.Join_in>.tit{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	background: url(../img/join_tit02.png)right no-repeat;
+}
+.Join_in>.tit>h2{
+	width: 220px;
+	height: 50px;
+	background: url(../img/join_tit01.png) center no-repeat;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.Join_in>.step{
+	width: 1120px;
+	height: 470px;
+	padding: 0 40px;
+	margin-top: 50px;
+	background: url(../img/process-line.png)center top no-repeat;
+}
+.Join_in>.step>ul>li{
+	width: 30px;
+    font: 78%/1.5 tahoma, Helvetica, arial, "\5b8b\4f53", sans-serif;
+	margin:0 35px;
+	padding-top:65px;
+	float: left;
+    background: url(../img/process-cir.png) no-repeat center top;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    cursor:pointer;
+}
+.Join_in>.step>ul>li:hover{
+	background: url(../img/process-cir-on.png) no-repeat center top;
+	color:#BE9C74;
+}
+/*加盟条件*/
+.condition{
+	width: 1200px;
+	margin: 0 auto;
+}
+.condition>.tit{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	background: url(../img/join_tit02.png)right no-repeat;
+}
+.condition>.tit>h2{
+	width: 220px;
+	height: 50px;
+	background: url(../img/join_tit01.png) center no-repeat;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.condition>main{
+	width: 1120px;
+	height: 252px;
+	margin:50px auto 0 auto;
+	padding:0 40px;
+}
+.condition>main>p{
+	font-size: 16px;
+    color: #666;
+    line-height: 1.8em;
+}
+/*项目详情*/
+.details{
+	width: 1200px;
+	margin: 0 auto 100px auto;
+}
+.details>.tit{
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	background: url(../img/join_tit02.png)right no-repeat;
+}
+.details>.tit>h2{
+	width: 220px;
+	height: 50px;
+	background: url(../img/join_tit01.png) center no-repeat;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 100;
+}
+.details>.text{
+	width: 1120px;
+	margin: 0 auto;
+}
+.details>.text>h1{
+	margin-top: 30px;
+    font-size: 20px;
+    color: #BE9C74;
+    font-weight: bold;
+    line-height: 30px;
+}
+.details>.text>p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8em;
+    line-height: 28px;
+}
+/*尾部*/
+footer{
+	width: 100%;
+	height: 300px;
+	background: #543C2F;
+}
+footer>.foot_top{
+	width: 1120px;
+	height: 260px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+}
+footer>.foot_top>.foot_logo{
+	width: 189px;
+	height: 100px;
+	margin-top:65px;
+	background: url(../img/foot-logo.png);
+}
+footer>.foot_top>.foot_logo>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+footer>.foot_top>.text{
+	margin-left: 50px;
+}
+footer>.foot_top>.text>h2{
+    font-size: 18px;
+    color: #f2dab4;
+    margin-top: 30px;
+    line-height: 27px;
+}
+footer>.foot_top>.text>h2>span{
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 20px;
+}
+footer>.foot_top>.text>p{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    line-height:21px; 
+}
+footer>.foot_top>.Message{
+	float: right;
+	width: 440px;
+	height: 237px;
+	margin-left:156px;
+}
+footer>.foot_top>.Message>h2{
+	text-align: right;
+	font-size: 18px;
+    color: #f2dab4;
+    font-weight: bold;
+    margin-top: 30px;
+}
+footer>.foot_top>.Message>h2>span{
+	font-size: 15px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+footer>.foot_top>.Message>.fill_in{
+	width: 100%;
+	height: 180px;
+}
+footer>.foot_top>.Message>.fill_in>form{
+	width: 100%;
+	height: 100%;
+}
+footer>.foot_top>.Message>.fill_in>form>.name_phone{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+}
+footer>.foot_top>.Message>.fill_in>form>.name_phone>input{
+	width: 178px;
+	height: 28px;
+	padding: 0 10px;
+    border: 1px solid #be9c74;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    background: none;
+}
+#name{
+    float: left;
+}
+#phone{
+	float: right;
+}
+footer>.foot_top>.Message>.fill_in>form>#Leaving_a_message{
+	width: 438px;
+    height: 58px;
+    background: none;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+	border: 1px solid #be9c74;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+footer>.foot_top>.Message>.fill_in>form>a{
+	width: 440px;
+    height: 30px;
+    display: block;
+    background: #f2dab4;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #543c2f;
+}
+footer>.foot_bottom{
+	width: 100%;
+	height: 40px;
+	background: #F2DAB4;
+    font-size: 13px;
+    color: #543c2f;
+    text-align: center;
+    line-height: 40px;
+}
+footer>.foot_bottom>a{
+    color: #543c2f;
+}
+footer>.foot_bottom>a:hover{
+    text-decoration: underline;
+}
